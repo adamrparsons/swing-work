@@ -20,7 +20,7 @@ public class nope extends javax.swing.JFrame {
 		button1.setText("Action");
 		button1.addActionListener(new java.awt.event.ActionListener() {
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
-				doAThing(evt);
+				buttonOneAction(evt);
 			}
 		});
 
@@ -65,7 +65,7 @@ public class nope extends javax.swing.JFrame {
 
 	}
 
-	private void doAThing(java.awt.event.ActionEvent evt) {
+	private void buttonOneAction(java.awt.event.ActionEvent evt) {
 		System.out.println("Button 1 pressed");
 	}
 
